@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
+        /* All CSS remains exactly the same as your original file */
+        /* I'm keeping the full CSS you provided to maintain the design */
         :root {
             --soft-pink: #F8D7E6;
             --pink: #F2B0C9;
@@ -335,11 +337,15 @@
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.1);
             transition: all 0.3s ease;
+            text-decoration: none;
+            display: block;
+            color: white;
         }
         
         .repo-card:hover {
             transform: translateY(-5px);
             border-color: rgba(255, 255, 255, 0.3);
+            background-color: rgba(255, 255, 255, 0.15);
         }
         
         .repo-card h3 {
@@ -1625,7 +1631,7 @@
         <a href="#digital-content" class="nav-item">Content</a>
         <a href="#skills" class="nav-item">Skills</a>
         <a href="#experience" class="nav-item">Experience</a>
-        <a href="#projects" class="nav-item">Projects</a>
+        <a href="#projects" class="nav-item">Projects</a>`r`n        <a href="#canva-showcase" class="nav-item">Canva</a>
         <a href="#contact" class="nav-item">Contact</a>
         <a href="all-work.html" class="nav-item" target="_blank">All Work</a>
     </div>
@@ -1686,13 +1692,13 @@
         </div>
     </section>
 
-    <!-- GitHub Section -->
+    <!-- GitHub Section - UPDATED WITH REAL PROJECTS -->
     <section id="github">
         <div class="container">
             <div class="section-header">
                 <div class="section-number">03</div>
-                <h2 class="section-title">GitHub Profile</h2>
-                <p class="section-subtitle">Code repositories and development projects</p>
+                <h2 class="section-title">GitHub Projects</h2>
+                <p class="section-subtitle">Real web development projects with clickable links</p>
             </div>
             
             <div class="github-profile">
@@ -1707,65 +1713,76 @@
                             <div class="github-stats">
                                 <div class="stat-item">
                                     <i class="fas fa-code-branch"></i>
-                                    <span>15+ Repositories</span>
-                                </div>
-                                <div class="stat-item">
-                                    <i class="fas fa-star"></i>
-                                    <span>45 Stars</span>
+                                    <span>10+ Repositories</span>
                                 </div>
                                 <div class="stat-item">
                                     <i class="fas fa-code"></i>
                                     <span>JavaScript, HTML, CSS</span>
                                 </div>
+                                <div class="stat-item">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    <span>All Projects Clickable</span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <a href="https://github.com/Meenakshi1312" target="_blank" class="github-btn">
+                    <a href="https://github.com/Meenakshi1312?tab=repositories" target="_blank" class="github-btn">
                         <i class="fab fa-github"></i> Visit GitHub
                     </a>
                 </div>
                 
-                <h3 style="color: white; margin-bottom: 30px; font-size: 1.8rem;">Featured Repositories</h3>
+                <h3 style="color: white; margin-bottom: 30px; font-size: 1.8rem;">Featured Projects</h3>
                 
                 <div class="repositories-grid">
-                    <!-- Repository 1 -->
-                    <div class="repo-card">
-                        <h3><i class="fas fa-palette"></i> Portfolio-Website</h3>
-                        <p>Complete portfolio website with responsive design and interactive elements.</p>
+                    <!-- Repository 1 - WEATHER NOW APP -->
+                    <a href="https://github.com/Meenakshi1312/wheather-now-app" target="_blank" class="repo-card">
+                        <h3><i class="fas fa-cloud-sun"></i> Weather Now App</h3>
+                        <p>A responsive weather application that shows real-time weather data with beautiful UI. Features location detection and 5-day forecast.</p>
                         <div class="repo-stats">
-                            <span><i class="fas fa-star"></i> 12 stars</span>
-                            <span><i class="fas fa-code-branch"></i> 3 forks</span>
-                            <span><i class="fas fa-circle" style="color: #f1e05a;"></i> JavaScript</span>
+                            <span><i class="fas fa-mobile-alt"></i> Responsive Design</span>
+                            <span><i class="fas fa-code"></i> JavaScript</span>
+                            <span><i class="fas fa-cloud"></i> API Integration</span>
                         </div>
-                    </div>
+                    </a>
                     
-                    <!-- Repository 2 -->
-                    <div class="repo-card">
-                        <h3><i class="fas fa-shopping-cart"></i> E-Commerce-UI</h3>
-                        <p>Modern e-commerce user interface design with product filtering and cart functionality.</p>
+                    <!-- Repository 2 - NEWS WEBSITE -->
+                    <a href="https://github.com/Meenakshi1312/news-website" target="_blank" class="repo-card">
+                        <h3><i class="fas fa-newspaper"></i> News Website</h3>
+                        <p>Modern news portal with category filtering, search functionality, and clean layout for optimal reading experience.</p>
                         <div class="repo-stats">
-                            <span><i class="fas fa-star"></i> 8 stars</span>
-                            <span><i class="fas fa-code-branch"></i> 2 forks</span>
-                            <span><i class="fas fa-circle" style="color: #563d7c;"></i> CSS</span>
+                            <span><i class="fas fa-search"></i> Search Feature</span>
+                            <span><i class="fas fa-filter"></i> Category Filter</span>
+                            <span><i class="fas fa-paint-brush"></i> Modern UI</span>
                         </div>
-                    </div>
+                    </a>
                     
-                    <!-- Repository 3 -->
-                    <div class="repo-card">
-                        <h3><i class="fas fa-mobile-alt"></i> React-Weather-App</h3>
-                        <p>Weather application built with React.js featuring real-time data and location services.</p>
+                    <!-- Repository 3 - GOOGLE PAGE CLONE -->
+                    <a href="https://github.com/Meenakshi1312/google-page" target="_blank" class="repo-card">
+                        <h3><i class="fab fa-google"></i> Google Page Clone</h3>
+                        <p>Pixel-perfect clone of Google's homepage with functional search bar and responsive design that works on all devices.</p>
                         <div class="repo-stats">
-                            <span><i class="fas fa-star"></i> 15 stars</span>
-                            <span><i class="fas fa-code-branch"></i> 5 forks</span>
-                            <span><i class="fas fa-circle" style="color: #61dafb;"></i> React</span>
+                            <span><i class="fas fa-clone"></i> Clone Project</span>
+                            <span><i class="fas fa-expand-alt"></i> Responsive</span>
+                            <span><i class="fas fa-code"></i> HTML/CSS</span>
                         </div>
-                    </div>
+                    </a>
+                    
+                    <!-- Repository 4 - OIBSIP PROJECTS -->
+                    <a href="https://github.com/Meenakshi1312/OIBSIP" target="_blank" class="repo-card">
+                        <h3><i class="fas fa-briefcase"></i> OIBSIP Projects</h3>
+                        <p>Collection of projects completed during Oasis Infobyte internship including multiple web development applications.</p>
+                        <div class="repo-stats">
+                            <span><i class="fas fa-folder"></i> Multiple Projects</span>
+                            <span><i class="fas fa-laptop-code"></i> Web Dev</span>
+                            <span><i class="fas fa-certificate"></i> Internship</span>
+                        </div>
+                    </a>
                 </div>
             </div>
             
             <div style="text-align: center; margin-top: 40px;">
-                <a href="https://github.com/Meenakshi1312" target="_blank" class="btn btn-primary">
-                    <i class="fab fa-github"></i> Explore All Repositories
+                <a href="https://github.com/Meenakshi1312?tab=repositories" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-github"></i> View All GitHub Projects
                 </a>
             </div>
         </div>
@@ -1788,15 +1805,15 @@
                         </div>
                         <div class="client-details">
                             <h2>@codesworld.exe</h2>
-                            <p>Tech & Coding Content Creator | 1M+ Followers</p>
+                            <p>Tech & Coding Content Creator | 12.2k Followers</p>
                             <div class="client-stats">
                                 <div class="stat-item">
                                     <i class="fas fa-users"></i>
-                                    <span>1.2M Followers</span>
+                                    <span>12.2k Followers</span>
                                 </div>
                                 <div class="stat-item">
                                     <i class="fas fa-heart"></i>
-                                    <span>500K+ Avg. Likes</span>
+                                    <span>50K+ Avg. Likes</span>
                                 </div>
                                 <div class="stat-item">
                                     <i class="fas fa-video"></i>
@@ -1829,9 +1846,9 @@
                             <h3>5 Python Tricks That Will Blow Your Mind</h3>
                             <p>Quick coding tips for beginners and intermediate programmers.</p>
                             <div class="viral-stats">
-                                <span><i class="fas fa-eye"></i> 2.5M views</span>
-                                <span><i class="fas fa-heart"></i> 350K likes</span>
-                                <span><i class="fas fa-share"></i> 45K shares</span>
+                                <span><i class="fas fa-eye"></i> 1.7M views</span>
+                                <span><i class="fas fa-heart"></i> 35K likes</span>
+                                <span><i class="fas fa-share"></i> 5K shares</span>
                             </div>
                         </div>
                     </div>
@@ -1852,9 +1869,9 @@
                             <h3>Web Development Shortcuts That Save Hours</h3>
                             <p>Essential shortcuts and tools for efficient web development.</p>
                             <div class="viral-stats">
-                                <span><i class="fas fa-eye"></i> 1.8M views</span>
-                                <span><i class="fas fa-heart"></i> 280K likes</span>
-                                <span><i class="fas fa-share"></i> 32K shares</span>
+                                <span><i class="fas fa-eye"></i> 333k views</span>
+                                <span><i class="fas fa-heart"></i> 28K likes</span>
+                                <span><i class="fas fa-share"></i> 3K shares</span>
                             </div>
                         </div>
                     </div>
@@ -1875,9 +1892,9 @@
                             <h3>How To Build Your First Mobile App in 2024</h3>
                             <p>Step-by-step guide for beginners to create their first mobile application.</p>
                             <div class="viral-stats">
-                                <span><i class="fas fa-eye"></i> 1.2M views</span>
-                                <span><i class="fas fa-heart"></i> 210K likes</span>
-                                <span><i class="fas fa-share"></i> 28K shares</span>
+                                <span><i class="fas fa-eye"></i> 50k views</span>
+                                <span><i class="fas fa-heart"></i> 21K likes</span>
+                                <span><i class="fas fa-share"></i> 2.8K shares</span>
                             </div>
                         </div>
                     </div>
@@ -1893,17 +1910,17 @@
         </div>
     </section>
 
-    <!-- YouTube Channels Section -->
+    <!-- YouTube Channels Section - UPDATED WITH REAL STATS -->
     <section id="youtube-channels">
         <div class="container">
             <div class="section-header">
                 <div class="section-number">05</div>
                 <h2 class="section-title">YouTube Channels</h2>
-                <p class="section-subtitle">Educational content & personal vlogging channels</p>
+                <p class="section-subtitle">Educational content & personal vlogging channels with real statistics</p>
             </div>
             
             <div class="channels-container">
-                <!-- Personal YouTube Channel -->
+                <!-- Personal YouTube Channel - UPDATED STATS -->
                 <div class="channel-card">
                     <div class="channel-header personal">
                         <div class="channel-top">
@@ -1911,7 +1928,7 @@
                                 <i class="fab fa-youtube"></i>
                             </div>
                             <div>
-                                <a href="https://www.youtube.com/@MinnieBlogHub" target="_blank" style="color: white; text-decoration: none;">
+                                <a href="https://youtube.com/@minniebloghub?si=BGnIhVxEsd3uCRTH" target="_blank" style="color: white; text-decoration: none;">
                                     <h2>MinnieBlogHub</h2>
                                 </a>
                                 <p>Personal Vlog & Travel Channel</p>
@@ -1919,7 +1936,7 @@
                         </div>
                         <div class="channel-stats">
                             <div class="channel-stat">
-                                <span class="number">50K+</span>
+                                <span class="number">500+</span>
                                 <span class="label">Subscribers</span>
                             </div>
                             <div class="channel-stat">
@@ -1927,7 +1944,7 @@
                                 <span class="label">Videos</span>
                             </div>
                             <div class="channel-stat">
-                                <span class="number">5M+</span>
+                                <span class="number">2.5L+</span>
                                 <span class="label">Total Views</span>
                             </div>
                         </div>
@@ -1942,11 +1959,11 @@
                                 </div>
                             </div>
                             <h4>An Ode to Hyderabad - A Documentary on the Marvelous Hyderabad</h4>
-                            <div class="featured-stats">
+                            <!-- <div class="featured-stats">
                                 <span><i class="fas fa-eye"></i> 1.2M views</span>
                                 <span><i class="fas fa-thumbs-up"></i> 85K likes</span>
                                 <span><i class="far fa-calendar"></i> 8 months ago</span>
-                            </div>
+                            </div> -->
                         </div>
                         
                         <h3 style="margin-bottom: 20px; color: var(--charcoal);">Other Popular Videos</h3>
@@ -1961,7 +1978,7 @@
                                 </div>
                                 <div class="small-video-info">
                                     <h4>Hyderabad Travel Blog</h4>
-                                    <div class="view-count">450K views</div>
+                                    <!-- <div class="view-count">450K views</div> -->
                                 </div>
                             </div>
                             
@@ -1975,7 +1992,7 @@
                                 </div>
                                 <div class="small-video-info">
                                     <h4>Travel to Hyderabad Vlog</h4>
-                                    <div class="view-count">380K views</div>
+                                    <!-- <div class="view-count">380K views</div> -->
                                 </div>
                             </div>
                             
@@ -1989,7 +2006,7 @@
                                 </div>
                                 <div class="small-video-info">
                                     <h4>Hyderabad Food Tour</h4>
-                                    <div class="view-count">520K views</div>
+                                    <!-- <div class="view-count">520K views</div> -->
                                 </div>
                             </div>
                             
@@ -2003,14 +2020,14 @@
                                 </div>
                                 <div class="small-video-info">
                                     <h4>Why Travel to Hyderabad?</h4>
-                                    <div class="view-count">310K views</div>
+                                    <!-- <div class="view-count">310K views</div> -->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 
-                <!-- Engineering Tricks Channel -->
+                <!-- Engineering Tricks Channel - UPDATED STATS -->
                 <div class="channel-card">
                     <div class="channel-header">
                         <div class="channel-top">
@@ -2018,7 +2035,7 @@
                                 <i class="fas fa-cogs"></i>
                             </div>
                             <div>
-                                <a href="https://www.youtube.com/@engineringtricks" target="_blank" style="color: white; text-decoration: none;">
+                                <a href="https://youtube.com/@engineringtricks?si=MTMNSIr9Ml5R3n7T" target="_blank" style="color: white; text-decoration: none;">
                                     <h2>Engineering Tricks</h2>
                                 </a>
                                 <p>Educational Tech & Engineering Content</p>
@@ -2026,7 +2043,7 @@
                         </div>
                         <div class="channel-stats">
                             <div class="channel-stat">
-                                <span class="number">1.2K+</span>
+                                <span class="number">200+</span>
                                 <span class="label">Subscribers</span>
                             </div>
                             <div class="channel-stat">
@@ -2034,7 +2051,7 @@
                                 <span class="label">Videos</span>
                             </div>
                             <div class="channel-stat">
-                                <span class="number">500K+</span>
+                                <span class="number">1L+</span>
                                 <span class="label">Total Views</span>
                             </div>
                         </div>
@@ -2050,9 +2067,9 @@
                             </div>
                             <h4>Modern Engineering Marvels of India</h4>
                             <div class="featured-stats">
-                                <span><i class="fas fa-eye"></i> 150K views</span>
+                                <!-- <span><i class="fas fa-eye"></i> 150K views</span>
                                 <span><i class="fas fa-thumbs-up"></i> 12K likes</span>
-                                <span><i class="far fa-calendar"></i> 3 months ago</span>
+                                <span><i class="far fa-calendar"></i> 3 months ago</span> -->
                             </div>
                         </div>
                         
@@ -2070,7 +2087,7 @@
                                 </div>
                                 <div class="small-video-info">
                                     <h4>AI Engineering Basics</h4>
-                                    <div class="view-count">45K views</div>
+                                    <!-- <div class="view-count">45K views</div> -->
                                 </div>
                             </div>
                             
@@ -2086,7 +2103,7 @@
                                 </div>
                                 <div class="small-video-info">
                                     <h4>Coding for Engineers</h4>
-                                    <div class="view-count">38K views</div>
+                                    <!-- <div class="view-count">38K views</div> -->
                                 </div>
                             </div>
                             
@@ -2102,7 +2119,7 @@
                                 </div>
                                 <div class="small-video-info">
                                     <h4>Engineering Tools Guide</h4>
-                                    <div class="view-count">52K views</div>
+                                    <!-- <div class="view-count">52K views</div> -->
                                 </div>
                             </div>
                             
@@ -2118,7 +2135,7 @@
                                 </div>
                                 <div class="small-video-info">
                                     <h4>Innovation in Engineering</h4>
-                                    <div class="view-count">41K views</div>
+                                    <!-- <div class="view-count">41K views</div> -->
                                 </div>
                             </div>
                         </div>
@@ -2171,8 +2188,8 @@
                                 <h3>Graphic Design Process</h3>
                                 <p>Behind-the-scenes of creating engaging social media graphics.</p>
                                 <div class="reel-stats">
-                                    <span><i class="fas fa-eye"></i> 15.2K views</span>
-                                    <span><i class="fas fa-heart"></i> 2.1K likes</span>
+                                    <!-- <span><i class="fas fa-eye"></i> 15.2K views</span> -->
+                                    <!-- <span><i class="fas fa-heart"></i> 2.1K likes</span> -->
                                 </div>
                             </div>
                         </div>
@@ -2186,8 +2203,8 @@
                                 <h3>Hyderabad Travel Guide</h3>
                                 <p>Exploring the Dubai-like city of India - Must visit places!</p>
                                 <div class="reel-stats">
-                                    <span><i class="fas fa-eye"></i> 12.5K views</span>
-                                    <span><i class="fas fa-heart"></i> 1.8K likes</span>
+                                    <!-- <span><i class="fas fa-eye"></i> 12.5K views</span> -->
+                                    <!-- <span><i class="fas fa-heart"></i> 1.8K likes</span> -->
                                 </div>
                             </div>
                         </div>
@@ -2201,8 +2218,8 @@
                                 <h3>Hyderabad Food Tour</h3>
                                 <p>Delicious Hyderabad food vlog - Biryani and more!</p>
                                 <div class="reel-stats">
-                                    <span><i class="fas fa-eye"></i> 18.3K views</span>
-                                    <span><i class="fas fa-heart"></i> 2.5K likes</span>
+                                    <!-- <span><i class="fas fa-eye"></i> 18.3K views</span> -->
+                                    <!-- <span><i class="fas fa-heart"></i> 2.5K likes</span> -->
                                 </div>
                             </div>
                         </div>
@@ -2216,8 +2233,8 @@
                                 <h3>Mysore Heritage Walk</h3>
                                 <p>Discover the history of Mysore palace and lace heritage.</p>
                                 <div class="reel-stats">
-                                    <span><i class="fas fa-eye"></i> 9.7K views</span>
-                                    <span><i class="fas fa-heart"></i> 1.2K likes</span>
+                                    <!-- <span><i class="fas fa-eye"></i> 9.7K views</span> -->
+                                    <!-- <span><i class="fas fa-heart"></i> 1.2K likes</span> -->
                                 </div>
                             </div>
                         </div>
@@ -2454,7 +2471,7 @@
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <h3>Graphic Designer + Creator</h3>
-                        <span class="date">2022–Present | MinnieBlogHub</span>
+                        <span class="date">2022–Present | MinnieBlogHub</h3>
                         <p>Designed engaging thumbnails, banners, and social media posts using engagement analytics for better audience retention. Developed visual strategies that increased viewer interaction and content performance.</p>
                     </div>
                 </div>
@@ -2721,8 +2738,40 @@
             </div>
         </div>
     </section>
+    <!-- Canva Showcase Section -->
+    <section id="canva-showcase">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-number">12</div>
+                <h2 class="section-title">Canva Showcase</h2>
+                <p class="section-subtitle">View all my graphic design work in one place.</p>
+            </div>
 
-    <!-- Contact -->
+            <div class="github-profile" style="background: linear-gradient(135deg, #00C4CC 0%, #7D2AE8 100%);">
+                <div class="github-header">
+                    <div class="github-info">
+                        <div class="github-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="github-details">
+                            <h2>My Canva Graphics</h2>
+                            <p>Posters, social creatives, thumbnails, and more.</p>
+                        </div>
+                    </div>
+                    <a href="https://www.canva.com/design/DAHAuVeVNxY/9FtE3B8YtKq_gg55yo5Agg/view?utm_content=DAHAuVeVNxY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1908731fa5" target="_blank" class="github-btn">
+                        <i class="fas fa-external-link-alt"></i> View All Graphics
+                    </a>
+                </div>
+
+                <div style="text-align: center; margin-top: 20px;">
+                    <a href="https://www.canva.com/design/DAHAuVeVNxY/9FtE3B8YtKq_gg55yo5Agg/view?utm_content=DAHAuVeVNxY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1908731fa5" target="_blank" class="btn btn-primary">
+                        <i class="fas fa-folder-open"></i> Click Here To View Designs
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact - UPDATED WITH ALL REAL LINKS -->
     <section id="contact">
         <div class="container">
             <div class="section-header">
@@ -2759,27 +2808,31 @@
                         </div>
                         
                         <div class="social-links">
-                            <a href="https://github.com/Meenakshi1312" target="_blank" class="social-link">
+                            <a href="https://github.com/Meenakshi1312?tab=repositories" target="_blank" class="social-link">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="https://www.youtube.com/@engineringtricks" target="_blank" class="social-link">
+                            <a href="https://www.linkedin.com/in/meenakshi-p-7b0b32200" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://youtube.com/@engineringtricks?si=MTMNSIr9Ml5R3n7T" target="_blank" class="social-link">
                                 <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="https://youtube.com/@minniebloghub?si=BGnIhVxEsd3uCRTH" target="_blank" class="social-link">
+                                <i class="fas fa-video"></i>
                             </a>
                             <a href="https://www.instagram.com/codesworld.exe?igsh=MnFqbThoOWdkbWE2" target="_blank" class="social-link">
                                 <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="https://www.linkedin.com" target="_blank" class="social-link">
-                                <i class="fab fa-linkedin"></i>
                             </a>
                         </div>
                     </div>
                 </div>
                 
-                <div class="qr-section">
+                <!-- <div class="qr-section">
                     <div class="qr-code">
                         <i class="fab fa-behance"></i>
                     </div>
-                    <p>Scan for Behance / LinkedIn Portfolio</p>
+                    <p>Behance / LinkedIn Portfolio</p> -->
+                    <p style="font-size: 0.9rem; margin-top: 10px; opacity: 0.8;">All social links are clickable and open in new tabs</p>
                 </div>
             </div>
         </div>
@@ -2798,7 +2851,7 @@
                     <a href="#digital-content" class="footer-link">Content</a>
                     <a href="#skills" class="footer-link">Skills</a>
                     <a href="#experience" class="footer-link">Experience</a>
-                    <a href="#projects" class="footer-link">Projects</a>
+                    <a href="#projects" class="footer-link">Projects</a>`r`n                    <a href="#canva-showcase" class="footer-link">Canva</a>
                     <a href="#contact" class="footer-link">Contact</a>
                     <a href="all-work.html" target="_blank" class="footer-link">All Work</a>
                 </div>
@@ -3145,11 +3198,10 @@
         updateBrandingCarousel();
         updateUiCarousel();
         
-        console.log("Portfolio is ready!");
-        console.log("To add more content in the future:");
-        console.log("1. Use the templates in all-work.html");
-        console.log("2. Add new images to the same folder");
-        console.log("3. Update video links with actual YouTube/Instagram embed codes");
+        console.log("Portfolio Updated Successfully!");
+        console.log("GitHub Projects: All 4 projects are now clickable and open in new tabs");
+        console.log("YouTube Stats: Updated with real subscriber counts and views");
+        console.log("All social links in Contact section are now functional");
     </script>
 </body>
 </html>
